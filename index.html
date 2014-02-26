@@ -12,6 +12,7 @@
       <h1>Address book</h1>
 
       <div class="row">
+
         <div class="col-md-6">
           <h2>Add a contact:</h2>
           <form id="new-contact">
@@ -49,12 +50,11 @@
           <h2>Contacts:</h2>
 
           <ul id="contacts">
-
-
           </ul>
+
         </div>
 
-      <div class="col-md-6">
+      <div class="col-md-3">
         <div id="show-contact">
           <h2></h2>
 
@@ -62,11 +62,44 @@
           <p>Last name: <span class="last-name"></span></p>
           <p>Addresses:</p>
           <ul id="addresses">
-          
           </ul>
 
+        <button type="submit" class="btn">Update</button>
         </div>
       </div>
+
+
+
+        <div class="col-md-3">
+          <form id="edit-contact">
+            <h2>Edit a contact:</h2>
+            <div class="form-group">
+              <label for="new-first-name">First name</label>
+              <input type="text" class="form-control" id="new-first-name">
+            </div>
+            <div class="form-group">
+              <label for="new-last-name">Last name</label>
+              <input type="text" class="form-control" id="new-last-name">
+            </div>
+              <div id="new-addresses">
+              <div class="new-address">
+                <div class="form-group">
+                  <label for="new-street">Street</label>
+                  <input type="text" class="form-control new-street">
+                </div>
+                <div class="form-group">
+                  <label for="new-city">City</label>
+                  <input type="text" class="form-control new-city">
+                </div>
+                <div class="form-group">
+                  <label for="new-state">State</label>
+                  <input type="text" class="form-control new-state">
+                </div>
+                <button type="submit" class="btn">Update</button>
+              </div>
+            
+
+
     </div>
     </div>
   </div>

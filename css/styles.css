@@ -10,3 +10,7 @@
 .contact:hover {
   text-decoration: underline;
 }
+
+#edit-contact {
+  display: none;
+}
